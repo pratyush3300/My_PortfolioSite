@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
           href="#home" 
           className="text-xl md:text-2xl font-bold gradient-text"
         >
-          John<span className="text-secondary">Doe</span>
+          Pratyush<span className="text-secondary">Prasoon</span>
         </a>
 
         {/* Desktop Navigation */}
