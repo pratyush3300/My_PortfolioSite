@@ -10,19 +10,19 @@ const About: React.FC = () => {
       year: "Feb-2024 -- Apr-2025",
       role: "Web Developer (Co-Lead)",
       company: "Artificial Intelligence Student Operated Council",
-      description: "Led development of enterprise dashboards with React and TypeScript",
+      description: "Collaborated with cross-functional teams to design, develop, and maintain web applications, contributing to building AISOC’s official website.",
     },
     {
       year: "Jun-2024 -- Aug-2024",
       role: "Web Developer Intern",
       company: "Acmegrade",
-      description: "Developed full stack applications using React, Node.js and MongoDB",
+      description: "Gained hands-on experience in backend development with PHP and basic Node.js, successfully designing and implementing a full-fledged e-commerce website.",
     },
     {
       year: "2020 - 2022",
       role: "Intermediate Education",
       company: "Heritage International School",
-      description: "Created responsive web applications and mobile-first designs",
+      description: "Completed my intermediate education with a focus on Science Stream.",
     },
   ];
 
