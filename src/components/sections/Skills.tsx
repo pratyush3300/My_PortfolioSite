@@ -10,18 +10,18 @@ interface Skill {
 }
 
 const skills: Skill[] = [
-  { name: "React", level: 90, category: "frontend" },
-  { name: "TypeScript", level: 85, category: "frontend" },
-  { name: "JavaScript", level: 92, category: "frontend" },
-  { name: "HTML/CSS", level: 88, category: "frontend" },
-  { name: "Tailwind CSS", level: 85, category: "frontend" },
-  { name: "Node.js", level: 80, category: "backend" },
-  { name: "Express", level: 82, category: "backend" },
+  { name: "HTML/CSS", level: 90, category: "frontend" },
+  { name: "JavaScript", level: 80, category: "frontend" },
+  { name: "Tailwind CSS", level: 80, category: "frontend" },
+  { name: "React", level: 80, category: "frontend" },
+  { name: "TypeScript", level: 55, category: "frontend" },
+  { name: "Node.js", level: 75, category: "backend" },
   { name: "MongoDB", level: 78, category: "backend" },
-  { name: "SQL", level: 75, category: "backend" },
-  { name: "Git", level: 88, category: "other" },
-  { name: "Docker", level: 70, category: "other" },
-  { name: "AWS", level: 65, category: "other" },
+  { name: "SQL", level: 85, category: "backend" },
+  { name: "GitHub", level: 88, category: "Languages" },
+  { name: "Power BI", level: 70, category: "Languages" },
+  { name: "C++ Language", level: 80, category: "Languages" },
+  { name: "Machine Learning", level: 65, category: "Languages" },
 ];
 
 const containerVariants = {
@@ -72,7 +72,7 @@ const Skills: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <SkillCategory title="Frontend" skills={frontendSkills} />
           <SkillCategory title="Backend" skills={backendSkills} />
-          <SkillCategory title="Tools & Others" skills={otherSkills} />
+          <SkillCategory title="Tools & Languages" skills={otherSkills} />
         </div>
       </div>
     </section>
