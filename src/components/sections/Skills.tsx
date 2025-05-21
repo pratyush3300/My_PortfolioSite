@@ -6,7 +6,7 @@ import BackgroundBlobs from "@/components/BackgroundBlobs";
 interface Skill {
   name: string;
   level: number;
-  category: "frontend" | "backend" | "other";
+  category: "frontend" | "backend" | "Languages";
 }
 
 const skills: Skill[] = [
@@ -46,7 +46,7 @@ const itemVariants = {
 const Skills: React.FC = () => {
   const frontendSkills = skills.filter(skill => skill.category === "frontend");
   const backendSkills = skills.filter(skill => skill.category === "backend");
-  const otherSkills = skills.filter(skill => skill.category === "other");
+  const otherSkills = skills.filter(skill => skill.category === "Languages");
 
   return (
     <section id="skills" className="section-padding bg-muted relative overflow-hidden">
