@@ -56,7 +56,7 @@ const Resume: React.FC = () => {
               className="group relative bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 rounded-full px-10 py-6 shadow-lg hover:shadow-primary/20 hover:shadow-xl transition-all duration-300"
             >
               <span className="flex items-center">
-                <Download className="mr-2 h-5 w-5 transition-transform group-hover:translate-y-0.5" />
+                <Download className="mr-2 h-5 w-5 transition-transform group-hover:translate-y-0.5"  href="https://drive.google.com/file/d/1WFKaJf-p9YTNqwHPjQGm8eCV4eNaVvyI/view?usp=drive_link" />
                 Download Resume
               </span>
               <span className="absolute inset-0 rounded-full animate-pulse-glow opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
@@ -91,14 +91,14 @@ const Resume: React.FC = () => {
             <h3 className="heading-sm mb-6">Certifications</h3>
             <ul className="space-y-6">
               <li className="relative pl-8 before:absolute before:left-0 before:top-2 before:w-3 before:h-3 before:bg-primary before:rounded-full">
-                <p className="text-sm text-primary font-medium">2022</p>
+                <p className="text-sm text-primary font-medium">2024</p>
                 <h4 className="text-lg font-semibold">Web Developer(Co-Lead)</h4>
                 <p className="text-muted-foreground">AISOC, KIIT</p>
               </li>
               <li className="relative pl-8 before:absolute before:left-0 before:top-2 before:w-3 before:h-3 before:bg-primary before:rounded-full">
                 <p className="text-sm text-primary font-medium">2024</p>
                 <h4 className="text-lg font-semibold">Python Developer</h4>
-                <p className="text-muted-foreground">AICTE Portal</p>
+                <p className="text-muted-foreground">AICTE Certified</p>
               </li>
             </ul>
           </div>
