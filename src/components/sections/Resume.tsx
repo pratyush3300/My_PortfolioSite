@@ -37,7 +37,7 @@ const Resume: React.FC = () => {
           <div className="absolute -top-24 -right-24 w-64 h-64 bg-primary/10 rounded-full blur-3xl"></div>
           <div className="absolute -bottom-24 -left-24 w-64 h-64 bg-secondary/10 rounded-full blur-3xl"></div>
 
-          <h3 className="heading-md mb-6">Ready to learn more about my experience?</h3>
+          <h3 className="heading-md mb-6">Ready to see more about my experience?</h3>
           <p className="text-lg mb-8 max-w-2xl mx-auto">
             My resume contains details about my work history, education,
             technical skills, and achievements. Feel free to download it for your
@@ -73,14 +73,14 @@ const Resume: React.FC = () => {
             <h3 className="heading-sm mb-6">Education</h3>
             <ul className="space-y-6">
               <li className="relative pl-8 before:absolute before:left-0 before:top-2 before:w-3 before:h-3 before:bg-secondary before:rounded-full">
-                <p className="text-sm text-secondary font-medium">2014 - 2018</p>
-                <h4 className="text-lg font-semibold">Bachelor of Science in Computer Science</h4>
-                <p className="text-muted-foreground">University of Technology</p>
+                <p className="text-sm text-secondary font-medium">2022 - 2026</p>
+                <h4 className="text-lg font-semibold">Bachelor's of Technology in IT</h4>
+                <p className="text-muted-foreground">KIIT University</p>
               </li>
               <li className="relative pl-8 before:absolute before:left-0 before:top-2 before:w-3 before:h-3 before:bg-secondary before:rounded-full">
-                <p className="text-sm text-secondary font-medium">2019</p>
-                <h4 className="text-lg font-semibold">Full Stack Web Development</h4>
-                <p className="text-muted-foreground">Coding Bootcamp</p>
+                <p className="text-sm text-secondary font-medium">2020-2022</p>
+                <h4 className="text-lg font-semibold">Intermediate Education</h4>
+                <p className="text-muted-foreground">Heritage International School</p>
               </li>
             </ul>
           </div>
@@ -90,13 +90,13 @@ const Resume: React.FC = () => {
             <ul className="space-y-6">
               <li className="relative pl-8 before:absolute before:left-0 before:top-2 before:w-3 before:h-3 before:bg-primary before:rounded-full">
                 <p className="text-sm text-primary font-medium">2022</p>
-                <h4 className="text-lg font-semibold">AWS Certified Developer</h4>
-                <p className="text-muted-foreground">Amazon Web Services</p>
+                <h4 className="text-lg font-semibold">Web Developer(Co-Lead)</h4>
+                <p className="text-muted-foreground">AISOC, KIIT</p>
               </li>
               <li className="relative pl-8 before:absolute before:left-0 before:top-2 before:w-3 before:h-3 before:bg-primary before:rounded-full">
-                <p className="text-sm text-primary font-medium">2020</p>
-                <h4 className="text-lg font-semibold">React Advanced Concepts</h4>
-                <p className="text-muted-foreground">Frontend Masters</p>
+                <p className="text-sm text-primary font-medium">2024</p>
+                <h4 className="text-lg font-semibold">Python Developer</h4>
+                <p className="text-muted-foreground">AICTE Portal</p>
               </li>
             </ul>
           </div>
