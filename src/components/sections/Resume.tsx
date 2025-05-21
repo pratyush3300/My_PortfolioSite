@@ -56,7 +56,7 @@ const Resume: React.FC = () => {
               className="group relative bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 rounded-full px-10 py-6 shadow-lg hover:shadow-primary/20 hover:shadow-xl transition-all duration-300"
             >
               <span className="flex items-center">
-                <Download className="mr-2 h-5 w-5 transition-transform group-hover:translate-y-0.5"  href="https://drive.google.com/file/d/1WFKaJf-p9YTNqwHPjQGm8eCV4eNaVvyI/view?usp=drive_link" />
+                <Download className="mr-2 h-5 w-5 transition-transform group-hover:translate-y-0.5" />
                 Download Resume
               </span>
               <span className="absolute inset-0 rounded-full animate-pulse-glow opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
