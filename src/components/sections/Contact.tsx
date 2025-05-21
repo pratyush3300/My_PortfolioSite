@@ -105,7 +105,7 @@ const Contact: React.FC = () => {
                   </div>
                   
                   <div>
-                    <p className="font-semibold text-primary mb-3">Follow Me</p>
+                    <p className="font-semibold text-primary mb-3">Connect with me</p>
                     <div className="flex space-x-4">
                       <a
                         href="https://www.linkedin.com/in/pratyush-prasoon-a6a8a9267/"
