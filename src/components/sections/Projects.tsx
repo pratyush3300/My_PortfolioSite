@@ -39,7 +39,7 @@ const projects: Project[] = [
     title: "COVID-19 Site",
     description: "This website provides a detailed insights into the local impact of the COVID-19.",
     image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-    tags: ["HTML&CSS", "JavaScript", "Bootstrap"],
+    tags: ["HTML&CSS", "JavaScript", "BootStrap"],
     demoLink: "https://pratyush3300.github.io/Go_Corona/",
     githubLink: "#",
     fullDescription: "It presents users to meet-up with our best doctors, preventive measures, and vital resources to help communities stay informed and safe.",
@@ -49,28 +49,28 @@ const projects: Project[] = [
     title: "Meery Christmas",
     description: "This project showcases a responsive Christmas-themed website.",
     image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
-    tags: ["HTML&CSS", "JavaScript", "Bootstrap"],
+    tags: ["HTML&CSS", "JavaScript", "BootStrap"],
     demoLink: "https://pratyush3300.github.io/Christmas/",
     githubLink: "#",
     fullDescription: "The project showcases a responsive Christmas-themed website. The design incorporates festive elements that capture the spirit of the holiday season.",
   },
-  // {
-  //   id: 4,
-  //   title: "Weather Dashboard",
-  //   description: "Weather visualization with interactive maps and forecasts",
-  //   image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-  //   tags: ["JavaScript", "API", "CSS"],
-  //   demoLink: "#",
-  //   githubLink: "#",
-  //   fullDescription: "Weather visualization dashboard that integrates multiple weather APIs to provide accurate forecasts, historical data, and interactive maps. Features responsive design and location-based recommendations.",
-  // },
+  {
+    id: 4,
+    title: "New Portfolio Website",
+    description: "I recently developed a new modern version of my portfolio website.",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    tags: ["React.js", "TypeScript", "Tailwind CSS"],
+    demoLink: "https://my-portfolio-site-lac-one.vercel.app/",
+    githubLink: "#",
+    fullDescription: "Unlike my previous version, this site leverages Tailwind's utility-first approach to build custom layouts more efficiently without writing lengthy custom CSS. Overall, the new portfolio looks more professional.",
+  },
 ];
 
 const Projects: React.FC = () => {
   const [filter, setFilter] = useState<string>("All");
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
-  const filters = ["All", "React.js", "Machine Learning", "JavaScript", "Tailwind CSS", "Framer"];
+  const filters = ["All", "BootStrap", "React.js", "Machine Learning", "JavaScript", "Tailwind CSS", "Framer"];
 
   const filteredProjects = filter === "All"
     ? projects
