@@ -24,53 +24,53 @@ interface Project {
 }
 
 const projects: Project[] = [
-  {
+    {
     id: 1,
-    title: "E-commerce Platform",
-    description: "A fully responsive e-commerce platform with cart and checkout",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-    tags: ["React", "Node.js", "MongoDB"],
+    title: "First Portfolio Website ",
+    description: "Developing this portfolio provided an opportunity to learn and experiment with React.js.",
+    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+    tags: ["HTML&CSS","React"],
     demoLink: "#",
     githubLink: "#",
-    fullDescription: "A comprehensive e-commerce solution built with React, Node.js and MongoDB. Features include product filtering, user authentication, shopping cart functionality, and secure checkout with Stripe integration.",
+    fullDescription: "• It showcases my deep understanding of web technologies, skills, projects, featuring smooth animations with a clean and responsive design.",
   },
-  {
+    {
     id: 2,
-    title: "Task Management App",
-    description: "Collaborative task manager with real-time updates",
-    image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
-    tags: ["React", "Firebase", "Tailwind"],
-    demoLink: "#",
+    title: "COVID-19 Site",
+    description: "This website provides a detailed insights into the local impact of the COVID-19.",
+    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+    tags: ["HTML&CSS", "JavaScript", "Bootstrap"],
+    demoLink: "https://pratyush3300.github.io/Go_Corona/",
     githubLink: "#",
-    fullDescription: "Real-time task management application built with React and Firebase. Features include drag-and-drop task organization, team collaboration, task assignments, and deadline notifications.",
+    fullDescription: "It presents users to meet-up with our best doctors, preventive measures, and vital resources to help communities stay informed and safe.",
   },
   {
     id: 3,
-    title: "Weather Dashboard",
-    description: "Weather visualization with interactive maps and forecasts",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-    tags: ["JavaScript", "API", "CSS"],
-    demoLink: "#",
+    title: "Meery Christmas",
+    description: "This project showcases a responsive Christmas-themed website.",
+    image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
+    tags: ["HTML&CSS", "JavaScript", "Bootstrap"],
+    demoLink: "https://pratyush3300.github.io/Christmas/",
     githubLink: "#",
-    fullDescription: "Weather visualization dashboard that integrates multiple weather APIs to provide accurate forecasts, historical data, and interactive maps. Features responsive design and location-based recommendations.",
+    fullDescription: "The project showcases a responsive Christmas-themed website. The design incorporates festive elements that capture the spirit of the holiday season.",
   },
-  {
-    id: 4,
-    title: "Portfolio Template",
-    description: "Customizable portfolio template for developers",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
-    tags: ["React", "Tailwind", "Framer"],
-    demoLink: "#",
-    githubLink: "#",
-    fullDescription: "A highly customizable portfolio template designed specifically for developers. Built with React and Tailwind CSS, featuring smooth animations with Framer Motion and a clean, responsive design.",
-  },
+  // {
+  //   id: 4,
+  //   title: "Weather Dashboard",
+  //   description: "Weather visualization with interactive maps and forecasts",
+  //   image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+  //   tags: ["JavaScript", "API", "CSS"],
+  //   demoLink: "#",
+  //   githubLink: "#",
+  //   fullDescription: "Weather visualization dashboard that integrates multiple weather APIs to provide accurate forecasts, historical data, and interactive maps. Features responsive design and location-based recommendations.",
+  // },
 ];
 
 const Projects: React.FC = () => {
   const [filter, setFilter] = useState<string>("All");
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
-  const filters = ["All", "React", "Node.js", "JavaScript", "Tailwind", "Firebase", "API", "CSS", "MongoDB", "Framer"];
+  const filters = ["All", "React.js", "Machine Learning", "JavaScript", "Tailwind CSS", "Framer"];
 
   const filteredProjects = filter === "All"
     ? projects
