@@ -85,22 +85,22 @@ const Contact: React.FC = () => {
                 <div className="space-y-6">
                   <div>
                     <p className="font-semibold text-primary mb-1">Email</p>
-                    <a href="mailto:johndoe@example.com" className="text-foreground/80 hover:text-secondary transition-colors">
-                      johndoe@example.com
+                    <a href="mailto:pratyushprasoon138@gmail.com" className="text-foreground/80 hover:text-secondary transition-colors">
+                      pratyushprasoon138@gmail.com
                     </a>
                   </div>
                   
                   <div>
                     <p className="font-semibold text-primary mb-1">Phone</p>
-                    <a href="tel:+11234567890" className="text-foreground/80 hover:text-secondary transition-colors">
-                      +1 (123) 456-7890
+                    <a href="tel:9262293389" className="text-foreground/80 hover:text-secondary transition-colors">
+                      9262293389
                     </a>
                   </div>
                   
                   <div>
                     <p className="font-semibold text-primary mb-1">Location</p>
                     <p className="text-foreground/80">
-                      San Francisco, CA, USA
+                      Bhubaneswar, Odisha
                     </p>
                   </div>
                   
@@ -108,7 +108,7 @@ const Contact: React.FC = () => {
                     <p className="font-semibold text-primary mb-3">Follow Me</p>
                     <div className="flex space-x-4">
                       <a
-                        href="#"
+                        href="https://www.linkedin.com/in/pratyush-prasoon-a6a8a9267/"
                         className="w-10 h-10 rounded-full flex items-center justify-center bg-card hover:bg-secondary hover:text-white transition-colors"
                         aria-label="LinkedIn"
                       >
@@ -119,7 +119,7 @@ const Contact: React.FC = () => {
                         </svg>
                       </a>
                       <a
-                        href="#"
+                        href="https://github.com/pratyush3300"
                         className="w-10 h-10 rounded-full flex items-center justify-center bg-card hover:bg-secondary hover:text-white transition-colors"
                         aria-label="GitHub"
                       >
