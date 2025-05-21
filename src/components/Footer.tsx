@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
               href="#home" 
               className="text-xl font-bold gradient-text"
             >
-              John<span className="text-secondary">Doe</span>
+              Pratyush<span className="text-secondary">Prasoon</span>
             </a>
           </motion.div>
 
@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
             viewport={{ once: true }}
             className="text-center md:text-left text-foreground/70 text-sm"
           >
-            <p>© {currentYear} John Doe. All rights reserved.</p>
+            <p>© {currentYear} Pratyush Prasoon. All rights reserved.</p>
           </motion.div>
 
           <motion.div 
