@@ -13,7 +13,7 @@ const skills: Skill[] = [
   { name: "HTML/CSS", level: 90, category: "frontend" },
   { name: "JavaScript", level: 80, category: "frontend" },
   { name: "Tailwind CSS", level: 80, category: "frontend" },
-  { name: "React", level: 80, category: "frontend" },
+  { name: "React", level: 70, category: "frontend" },
   { name: "TypeScript", level: 55, category: "frontend" },
   { name: "Python", level: 85, category: "backend" },
   { name: "Node.js", level: 75, category: "backend" },
