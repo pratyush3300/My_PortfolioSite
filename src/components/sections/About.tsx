@@ -78,7 +78,7 @@ const About: React.FC = () => {
               <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-primary/20 to-secondary/20 shadow-lg">
                 <img
                   src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
-                  alt="John Doe"
+                  alt="Pratyush Prasoon"
                   className="w-full h-full object-cover rounded-2xl"
                 />
               </div>
