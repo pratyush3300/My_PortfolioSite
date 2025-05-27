@@ -33,10 +33,8 @@ npm run dev
 # Make sure you have Node.js and npm installed on your machine.
 
 
-📬 Contact Me for any Queries:
-If you'd like to connect or have feedback, feel free to reach out:
-
-LinkedIn: https://www.linkedin.com/in/pratyush-prasoon-a6a8a9267/
+## 📬 Contact Me:
+My LinkedIn: [(https://www.linkedin.com/in/pratyush-prasoon-a6a8a9267/])
 
 Email: pratyushprasoon138@gmail.com
 
