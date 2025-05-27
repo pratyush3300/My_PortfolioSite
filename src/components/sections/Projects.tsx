@@ -40,7 +40,7 @@ const projects: Project[] = [
     title: "COVID-19 Site",
     description: "This website provides a detailed insights into the local impact of the COVID-19.",
     image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-    tags: ["HTML&CSS", "JavaScript", "BootStrap"],
+    tags: ["HTML&CSS", "BootStrap"],
     demoLink: "https://pratyush3300.github.io/Go_Corona/",
     githubLink: "#",
     fullDescription: "It presents users to meet-up with our best doctors, preventive measures, and vital resources to help communities stay informed and safe.",
