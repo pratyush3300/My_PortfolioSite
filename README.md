@@ -19,8 +19,9 @@ Unlike my previous version, this site leverages Tailwind's utility-first approac
 - 🧩 Easy to extend and customize
 
 
-How to Run Locally
-1- Clone the repository:
+How to Run Locally:
+
+1- Clone the repository: 
 git clone https://github.com/your-username/portfolio.git
 cd portfolio
 
