@@ -42,19 +42,3 @@ Email: pratyushprasoon138@gmail.com
 
 
 
-
-## 🚧 Folder Structure (Optional)
-
-```bash
-portfolio/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── pages/
-│   ├── App.js
-│   └── index.js
-├── tailwind.config.js
-└── package.json
-
-
