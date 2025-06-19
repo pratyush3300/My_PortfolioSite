@@ -48,7 +48,7 @@ const Resume: React.FC = () => {
             whileTap={{ scale: 0.95 }}
             className="inline-block"
           >
-           <a href="https://drive.google.com/uc?export=download&id=1WFKaJf-p9YTNqwHPjQGm8eCV4eNaVvyI" target="_blank" rel="noopener noreferrer">
+           <a href="https://drive.google.com/file/d/1oMpeoi0GKYHkHJAFXOXFqPVRevWrfib6/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <Button 
               size="lg" 
               className="group relative bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 rounded-full px-10 py-6 shadow-lg hover:shadow-primary/20 hover:shadow-xl transition-all duration-300"
@@ -74,12 +74,12 @@ const Resume: React.FC = () => {
             <h3 className="heading-sm mb-6">Education</h3>
             <ul className="space-y-6">
               <li className="relative pl-8 before:absolute before:left-0 before:top-2 before:w-3 before:h-3 before:bg-secondary before:rounded-full">
-                <p className="text-sm text-secondary font-medium">2022 - 2026</p>
+                <p className="text-sm text-secondary font-medium">Sep 2022 - May 2026</p>
                 <h4 className="text-lg font-semibold">Bachelor's of Technology in IT</h4>
                 <p className="text-muted-foreground">KIIT University</p>
               </li>
               <li className="relative pl-8 before:absolute before:left-0 before:top-2 before:w-3 before:h-3 before:bg-secondary before:rounded-full">
-                <p className="text-sm text-secondary font-medium">2020-2022</p>
+                <p className="text-sm text-secondary font-medium">Apr 2020 - Mar 2022</p>
                 <h4 className="text-lg font-semibold">Intermediate Education</h4>
                 <p className="text-muted-foreground">Heritage International School</p>
               </li>
@@ -90,12 +90,12 @@ const Resume: React.FC = () => {
             <h3 className="heading-sm mb-6">Certifications</h3>
             <ul className="space-y-6">
               <li className="relative pl-8 before:absolute before:left-0 before:top-2 before:w-3 before:h-3 before:bg-primary before:rounded-full">
-                <p className="text-sm text-primary font-medium">2024</p>
+                <p className="text-sm text-primary font-medium">Apr 2025</p>
                 <h4 className="text-lg font-semibold">Web Developer(Co-Lead)</h4>
                 <p className="text-muted-foreground">AISOC, KIIT</p>
               </li>
               <li className="relative pl-8 before:absolute before:left-0 before:top-2 before:w-3 before:h-3 before:bg-primary before:rounded-full">
-                <p className="text-sm text-primary font-medium">2024</p>
+                <p className="text-sm text-primary font-medium">Dec 2024</p>
                 <h4 className="text-lg font-semibold">Python Developer</h4>
                 <p className="text-muted-foreground">AICTE Certified</p>
               </li>
