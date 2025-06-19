@@ -31,7 +31,7 @@ const projects: Project[] = [
     image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
     tags: ["HTML&CSS", "JavaScript","React.js"],
     demoLink: "https://myportfolio-snowy-seven.vercel.app/",
-    githubLink: "#",
+    githubLink: "https://github.com/pratyush3300/firstPortfolio",
     fullDescription: "• It showcases my deep understanding of web technologies, skills, projects, featuring smooth animations with a clean and responsive design.",
   },
   
@@ -42,39 +42,50 @@ const projects: Project[] = [
     image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
     tags: ["HTML&CSS", "BootStrap"],
     demoLink: "https://pratyush3300.github.io/Go_Corona/",
-    githubLink: "#",
+    githubLink: "https://github.com/pratyush3300/Go_Corona",
     fullDescription: "It presents users to meet-up with our best doctors, preventive measures, and vital resources to help communities stay informed and safe.",
   },
-  
-    {
+
+  {
     id: 3,
+    title: "Movie Recommendation System",
+    description: "his Movie Recommendation System is a content-based model built using Python, TF-IDF vectorization, and cosine similarity.",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    tags: ["Python", "Machine Learning"],
+    demoLink: "https://github.com/pratyush3300/Movie_Recomendation/blob/main/Model_Presentation.pdf",
+    githubLink: "https://github.com/pratyush3300/Movie_Recomendation",
+    fullDescription: "A Content-Based Movie Recommendation System developed as part of my Applied Programming Lab (AP Lab) project. It recommends movies similar to a user-given title using textual metadata and natural language processing techniques.",
+  },
+  
+  {
+    id: 4,
     title: "Study Nest",
     description: "Built a full-featured academic support platform to access PYQs for students.",
     image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
     tags: ["JavaScript", "BootStrap"],
     demoLink: "https://studynest-six.vercel.app/",
-    githubLink: "#",
+    githubLink: "https://github.com/pratyush3300/Study_Nest",
     fullDescription: "Developed an academic platform offering PYQs filtered by branch, semester, and subject, featuring a voice assistant chatbot for easy use and real-time query resolution.",
   },
   
   {
-    id: 4,
+    id: 5,
     title: "Meery Christmas",
     description: "This project showcases a responsive Christmas-themed website.",
     image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
     tags: ["HTML&CSS", "JavaScript", "BootStrap"],
     demoLink: "https://pratyush3300.github.io/Christmas/",
-    githubLink: "#",
+    githubLink: "https://github.com/pratyush3300/Christmas",
     fullDescription: "The project showcases a responsive Christmas-themed website. The design incorporates festive elements that capture the spirit of the holiday season.",
   },
   {
-    id: 5,
+    id: 6,
     title: "New Portfolio Website",
     description: "I recently developed a new modern version of my portfolio website.",
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
     tags: ["React.js", "TypeScript", "Tailwind CSS"],
     demoLink: "https://my-portfolio-site-lac-one.vercel.app/",
-    githubLink: "#",
+    githubLink: "https://github.com/pratyush3300/My_PortfolioSite",
     fullDescription: "Unlike my previous version, this site leverages Tailwind's utility-first approach to build custom layouts more efficiently without writing lengthy custom CSS. Overall, the new portfolio looks more professional.",
   },
 ];
@@ -83,7 +94,7 @@ const Projects: React.FC = () => {
   const [filter, setFilter] = useState<string>("All");
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
-  const filters = ["All", "BootStrap", "React.js", "Machine Learning", "JavaScript", "Tailwind CSS", "Framer"];
+  const filters = ["All", "BootStrap", "React.js", "Python", "Machine Learning", "JavaScript", "Tailwind CSS", "Framer"];
 
   const filteredProjects = filter === "All"
     ? projects
