@@ -22,7 +22,7 @@ const About: React.FC = () => {
       year: "2020 - 2022",
       role: "Intermediate Education",
       company: "Heritage International School",
-      description: "Completed my intermediate education with a focus on Science(PCM) Stream.",
+      description: "Completed my intermediate education with a focus on Science Stream.",
     },
   ];
 
