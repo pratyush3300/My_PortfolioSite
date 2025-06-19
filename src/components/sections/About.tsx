@@ -16,13 +16,13 @@ const About: React.FC = () => {
       year: "Jun-2024 -- Aug-2024",
       role: "Web Developer Intern",
       company: "Acmegrade",
-      description: "Gained hands-on experience in backend development with PHP and basic Node.js, successfully designing and implementing a full-fledged e-commerce website.",
+      description: "Gained hands-on experience in backend development with PHP and Node.js by successfully implementing a full-fledged e-commerce website as an intern project.",
     },
     {
       year: "2020 - 2022",
       role: "Intermediate Education",
       company: "Heritage International School",
-      description: "Completed my intermediate education with a focus on Science Stream.",
+      description: "Completed my intermediate education with a focus on Science(PCM) Stream.",
     },
   ];
 
