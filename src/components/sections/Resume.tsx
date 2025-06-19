@@ -92,7 +92,7 @@ const Resume: React.FC = () => {
               <li className="relative pl-8 before:absolute before:left-0 before:top-2 before:w-3 before:h-3 before:bg-primary before:rounded-full">
                 <p className="text-sm text-primary font-medium">Apr 2025</p>
                 <h4 className="text-lg font-semibold">Web Developer(Co-Lead)</h4>
-                <p className="text-muted-foreground">AISOC, KIIT</p>
+                <p className="text-muted-foreground">AISOC Certified, KIIT </p>
               </li>
               <li className="relative pl-8 before:absolute before:left-0 before:top-2 before:w-3 before:h-3 before:bg-primary before:rounded-full">
                 <p className="text-sm text-primary font-medium">Dec 2024</p>
