@@ -34,16 +34,16 @@ const projects: Project[] = [
     githubLink: "https://github.com/pratyush3300/firstPortfolio",
     fullDescription: "• It showcases my deep understanding of web technologies, skills, projects, featuring smooth animations with a clean and responsive design.",
   },
-  
-    {
+
+  {
     id: 2,
-    title: "COVID-19 Site",
-    description: "This website provides a detailed insights into the local impact of the COVID-19.",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-    tags: ["HTML&CSS", "BootStrap"],
-    demoLink: "https://pratyush3300.github.io/Go_Corona/",
-    githubLink: "https://github.com/pratyush3300/Go_Corona",
-    fullDescription: "It presents users to meet-up with our best doctors, preventive measures, and vital resources to help communities stay informed and safe.",
+    title: "Study Nest",
+    description: "Built a full-featured academic support platform to access PYQs for students.",
+    image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
+    tags: ["JavaScript", "BootStrap"],
+    demoLink: "https://studynest-six.vercel.app/",
+    githubLink: "https://github.com/pratyush3300/Study_Nest",
+    fullDescription: "Developed an academic platform offering PYQs filtered by branch, semester, and subject, featuring a voice assistant chatbot for easy use and real-time query resolution.",
   },
 
   {
@@ -59,13 +59,13 @@ const projects: Project[] = [
   
   {
     id: 4,
-    title: "Study Nest",
-    description: "Built a full-featured academic support platform to access PYQs for students.",
-    image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
-    tags: ["JavaScript", "BootStrap"],
-    demoLink: "https://studynest-six.vercel.app/",
-    githubLink: "https://github.com/pratyush3300/Study_Nest",
-    fullDescription: "Developed an academic platform offering PYQs filtered by branch, semester, and subject, featuring a voice assistant chatbot for easy use and real-time query resolution.",
+    title: "COVID-19 Site",
+    description: "This website provides a detailed insights into the local impact of the COVID-19.",
+    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+    tags: ["HTML&CSS", "BootStrap"],
+    demoLink: "https://pratyush3300.github.io/Go_Corona/",
+    githubLink: "https://github.com/pratyush3300/Go_Corona",
+    fullDescription: "It presents users to meet-up with our best doctors, preventive measures, and vital resources to help communities stay informed and safe.",
   },
   
   {
