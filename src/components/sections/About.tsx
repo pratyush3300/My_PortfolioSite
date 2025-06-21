@@ -15,7 +15,7 @@ const About: React.FC = () => {
     {
       year: "Jun-2024 -- Aug-2024",
       role: "Web Developer Intern",
-      company: "Acmegrade",
+      company: "Acmegrade Pvt Ltd",
       description: "Gained hands-on experience in backend development with PHP and Node.js by successfully implementing a full-fledged e-commerce website as an intern project.",
     },
     {
