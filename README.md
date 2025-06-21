@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-Welcome to my personal portfolio website! Built with **Tailwind CSS**, this project showcases my work, technical skills, and achievements in a clean and responsive layout. The goal was to create a visually engaging and professional platform that represents my journey as a developer.
+Welcome to my personal portfolio website! Built with **Tailwind CSS**. This project showcases my work, technical skills, and achievements in a clean and responsive layout. The goal was to create a visually engaging and professional platform that represents my journey as a developer.
 Unlike my previous version, this site leverages Tailwind's utility-first approach to build custom layouts more efficiently without writing lengthy custom CSS. Overall, the new portfolio not only looks more professional but also reflects better front-end development practices, making it easier to maintain and scale in the future.
 
 ## 🖥️ Tech Stack Used:
