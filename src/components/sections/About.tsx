@@ -8,20 +8,20 @@ const About: React.FC = () => {
   const timelineItems = [
     {
       year: "Feb-2024 -- Apr-2025",
-      company: "Artificial Intelligence Student Operated Council(AISoC)",
-      role: "Web Developer (Co-Lead)",
+      company: "Web Developer (Co-Lead)",
+      role: "Artificial Intelligence Student Operated Council(AISoC)",
       description: "Collaborated with cross-functional teams to design, develop, and maintain web applications, contributing to building AISOC’s official website.",
     },
     {
       year: "Jun-2024 -- Aug-2024",
-      company: "Acmegrade Pvt Ltd",
-      role: "Web Developer Intern",
+      company: "Web Developer Intern",
+      role: "Acmegrade Pvt Ltd",
       description: "Gained hands-on experience in backend development with PHP and Node.js by successfully implementing a full-fledged MapFood platform as an intern project.",
     },
     {
       year: "2020 - 2022",
-      company: "Heritage International School",
-      role: "Intermediate Education (10+2)",
+      company: "Intermediate Education (10+2)",
+      role: "Heritage International School",
       description: "Completed my intermediate education with a focus on Science Stream.",
     },
   ];
