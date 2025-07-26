@@ -20,9 +20,10 @@ const skills: Skill[] = [
   { name: "MongoDB", level: 78, category: "backend" },
   { name: "SQL", level: 85, category: "backend" },
   { name: "GitHub", level: 88, category: "Languages" },
+   { name: "Figma", level: 90, category: "Languages" },
   { name: "Power BI", level: 70, category: "Languages" },
   { name: "C++ Language", level: 80, category: "Languages" },
-  { name: "Machine Learning", level: 65, category: "Languages" },
+  { name: "Machine Learning", level: 85, category: "Languages" },
 ];
 
 const containerVariants = {
