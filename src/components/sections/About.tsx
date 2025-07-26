@@ -61,8 +61,8 @@ const About: React.FC = () => {
           <h2 className="heading-lg mb-4">About Me</h2>
           <div className="w-20 h-1 bg-secondary mx-auto mb-8"></div>
           <p className="text-lg md:text-xl max-w-3xl mx-auto text-foreground/80">
-            A passionate Web Developer with
-            experience of building modern web applications. Enjoy working with cross-functional teams to
+            A final-year B.Tech student at KIIT University with a strong interest in tech, especially in Web Development, and Machine Learning.
+            Experienced of building modern web applications. Enjoy working with cross-functional teams to
             create solutions that meet technical requirements, enhance user experience, and deliver real value.
           </p>
         </motion.div>
