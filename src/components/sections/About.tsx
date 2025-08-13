@@ -10,13 +10,13 @@ const About: React.FC = () => {
       year: "Feb-2024 -- Apr-2025",
       company: "Web Developer (Co-Lead)",
       role: "Artificial Intelligence Student Operated Council(AISoC)",
-      description: "Collaborated with cross-functional teams to design, develop, and maintain web applications, contributing to building AISOC’s official website.",
+      description: "Co-led the development of AISoC’s official website by collaborating with content, designing, and tech teams. ",
     },
     {
       year: "Jun-2024 -- Aug-2024",
       company: "Web Developer Intern",
       role: "Acmegrade Pvt Ltd",
-      description: "Gained hands-on experience in backend development with PHP and Node.js by successfully implementing a full-fledged MapFood platform as an intern project.",
+      description: "Gained hands-on experience in backend development, contributing to full-stack web projects. Developed a full-fledged MapFood platform as a part of my internship project.",
     },
     {
       year: "2020 - 2022",
