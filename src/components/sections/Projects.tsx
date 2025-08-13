@@ -62,7 +62,7 @@ const projects: Project[] = [
     title: "MapFood Platform",
     description: "Built the MapFood platform during the internship period.",
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-    tags: ["React.js", "TypeScript", "Tailwind CSS"],
+    tags: ["React.js", "Tailwind CSS"],
     demoLink: "https://internproject-mu.vercel.app/",
     // githubLink: "https://github.com/pratyush3300/My_PortfolioSite",
     fullDescription: "This is my internship project at Acmegrade Pvt. Ltd, where I developed MapFood, a food discovery platform with interactive onboarding and responsive layout for a seamless experience.",
