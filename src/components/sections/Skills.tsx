@@ -6,24 +6,24 @@ import BackgroundBlobs from "@/components/BackgroundBlobs";
 interface Skill {
   name: string;
   level: number;
-  category: "frontend" | "backend" | "Languages";
+  category: "frontend" | "backend" | "Languages" | "Artificial Intelligence";
 }
 
 const skills: Skill[] = [
   { name: "HTML/CSS", level: 90, category: "frontend" },
   { name: "JavaScript", level: 80, category: "frontend" },
-  { name: "Tailwind CSS", level: 80, category: "frontend" },
+  { name: "Bootstrap", level: 80, category: "frontend" },
   { name: "React", level: 70, category: "frontend" },
   { name: "TypeScript", level: 55, category: "frontend" },
-  { name: "Python", level: 85, category: "backend" },
   { name: "Node.js", level: 75, category: "backend" },
   { name: "MongoDB", level: 78, category: "backend" },
   { name: "SQL", level: 85, category: "backend" },
+  { name: "C++ Language", level: 80, category: "Languages" },
   { name: "GitHub", level: 88, category: "Languages" },
    { name: "Figma", level: 90, category: "Languages" },
   { name: "Power BI", level: 70, category: "Languages" },
-  { name: "C++ Language", level: 80, category: "Languages" },
-  { name: "Machine Learning", level: 85, category: "Languages" },
+  { name: "Machine Learning", level: 85, category: "Artificial Intelligence"" },
+  { name: "Python", level: 85, category: "Artificial Intelligence"},
 ];
 
 const containerVariants = {
@@ -49,6 +49,7 @@ const Skills: React.FC = () => {
   const frontendSkills = skills.filter(skill => skill.category === "frontend");
   const backendSkills = skills.filter(skill => skill.category === "backend");
   const otherSkills = skills.filter(skill => skill.category === "Languages");
+  const otherSkills = skills.filter(skill => skill.category === "Artificial Intelligence");
 
   return (
     <section id="skills" className="section-padding bg-muted relative overflow-hidden">
@@ -66,8 +67,7 @@ const Skills: React.FC = () => {
           <h2 className="heading-lg mb-4">My Skills</h2>
           <div className="w-20 h-1 bg-secondary mx-auto mb-8"></div>
           <p className="text-lg md:text-xl max-w-3xl mx-auto text-foreground/80">
-            I've developed expertise in various technologies across the full stack,
-            with a focus on building modern, responsive web applications.
+            I've developed expertise in various fields and technologies, with a focus on building modern, responsive web applications.
           </p>
         </motion.div>
 
@@ -75,6 +75,7 @@ const Skills: React.FC = () => {
           <SkillCategory title="Frontend" skills={frontendSkills} />
           <SkillCategory title="Backend" skills={backendSkills} />
           <SkillCategory title="Tools & Languages" skills={otherSkills} />
+          <SkillCategory title="Artificial Intelligence" skills={Artificial Intelligence} />
         </div>
       </div>
     </section>
