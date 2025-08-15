@@ -6,7 +6,7 @@ import BackgroundBlobs from "@/components/BackgroundBlobs";
 interface Skill {
   name: string;
   level: number;
-  category: "frontend" | "backend" | "Languages" | "Artificial Intelligence";
+  category: "frontend" | "backend" | "Languages";
 }
 
 const skills: Skill[] = [
@@ -15,6 +15,7 @@ const skills: Skill[] = [
   { name: "Bootstrap", level: 80, category: "frontend" },
   { name: "React", level: 70, category: "frontend" },
   { name: "TypeScript", level: 55, category: "frontend" },
+  { name: "Python", level: 85, category: "backend"},
   { name: "Node.js", level: 75, category: "backend" },
   { name: "MongoDB", level: 78, category: "backend" },
   { name: "SQL", level: 85, category: "backend" },
@@ -22,8 +23,6 @@ const skills: Skill[] = [
   { name: "GitHub", level: 88, category: "Languages" },
    { name: "Figma", level: 90, category: "Languages" },
   { name: "Power BI", level: 70, category: "Languages" },
-  { name: "Machine Learning", level: 85, category: "Artificial Intelligence"" },
-  { name: "Python", level: 85, category: "Artificial Intelligence"},
 ];
 
 const containerVariants = {
@@ -49,7 +48,6 @@ const Skills: React.FC = () => {
   const frontendSkills = skills.filter(skill => skill.category === "frontend");
   const backendSkills = skills.filter(skill => skill.category === "backend");
   const otherSkills = skills.filter(skill => skill.category === "Languages");
-  const otherSkills = skills.filter(skill => skill.category === "Artificial Intelligence");
 
   return (
     <section id="skills" className="section-padding bg-muted relative overflow-hidden">
@@ -75,7 +73,6 @@ const Skills: React.FC = () => {
           <SkillCategory title="Frontend" skills={frontendSkills} />
           <SkillCategory title="Backend" skills={backendSkills} />
           <SkillCategory title="Tools & Languages" skills={otherSkills} />
-          <SkillCategory title="Artificial Intelligence" skills={Artificial Intelligence} />
         </div>
       </div>
     </section>
