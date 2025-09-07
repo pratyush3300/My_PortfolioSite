@@ -7,19 +7,19 @@ import BackgroundBlobs from "@/components/BackgroundBlobs";
 const About: React.FC = () => {
   const timelineItems = [
     {
-      year: "Feb-2024 -- Apr-2025",
+      year: "Feb 2024 -- Apr 2025",
       company: "Web Developer (Co-Lead)",
       role: "Artificial Intelligence Student Operated Council(AISoC), KIIT",
-      description: "Co-led the development of AISoC’s official website by collaborating with content, designing, and tech teams. ",
+      description: "Led the development of AISoC’s official website by collaborating with content, designing, and tech teams. ",
     },
     {
-      year: "Jun-2024 -- Aug-2024",
+      year: "Jun 2024 -- Aug 2024",
       company: "Web Developer Intern",
       role: "Acmegrade Pvt Ltd, Bangalore",
       description: "Gained hands-on experience in backend development, contributing to full-stack web projects. Developed a full-fledged MapFood platform as a part of my internship project.",
     },
     {
-      year: "2020 - 2022",
+      year: "Apr 2020 -- Mar 2022",
       company: "Intermediate Education (10+2)",
       role: "Heritage International School, Jharkhand",
       description: "Completed my intermediate education with a focus on Science Stream.",
