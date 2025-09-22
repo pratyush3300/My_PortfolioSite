@@ -76,12 +76,12 @@ const Resume: React.FC = () => {
               <li className="relative pl-8 before:absolute before:left-0 before:top-2 before:w-3 before:h-3 before:bg-secondary before:rounded-full">
                 <p className="text-sm text-secondary font-medium">Sep 2022 - May 2026</p>
                 <h4 className="text-lg font-semibold">B.Tech in Information Technology</h4>
-                <p className="text-muted-foreground">KIIT University</p>
+                <p className="text-muted-foreground">KIIT University, Odisha</p>
               </li>
               <li className="relative pl-8 before:absolute before:left-0 before:top-2 before:w-3 before:h-3 before:bg-secondary before:rounded-full">
                 <p className="text-sm text-secondary font-medium">Apr 2020 - Mar 2022</p>
                 <h4 className="text-lg font-semibold">Intermediate Education (10+2)</h4>
-                <p className="text-muted-foreground">Heritage International School</p>
+                <p className="text-muted-foreground">Heritage International School, Jharkhand</p>
               </li>
             </ul>
           </div>
