@@ -114,7 +114,7 @@ const Projects: React.FC = () => {
   const [filter, setFilter] = useState<string>("All");
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
-  const filters = ["All", "BootStrap", "React.js", "Python", "Machine Learning", "JavaScript", "Tailwind CSS, Figma"];
+  const filters = ["All", "BootStrap", "React.js", "Python", "Machine Learning", "JavaScript", "Tailwind CSS"];
 
   const filteredProjects = filter === "All"
     ? projects
