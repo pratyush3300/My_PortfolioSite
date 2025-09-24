@@ -77,8 +77,7 @@ const projects: Project[] = [
     demoLink: "https://pratyush3300.github.io/Go_Corona/",
     // githubLink: "https://github.com/pratyush3300/Go_Corona",
     fullDescription: "It presents users to meet-up with our best doctors, preventive measures, and vital resources to help communities stay informed and safe.",
-  },
-  
+  },  
   {
     id: 6,
     title: "Meery Christmas",
@@ -98,6 +97,16 @@ const projects: Project[] = [
     demoLink: "https://my-portfolio-site-lac-one.vercel.app/",
     // githubLink: "https://github.com/pratyush3300/My_PortfolioSite",
     fullDescription: "Unlike my previous version, this site leverages Tailwind's utility-first approach to build custom layouts more efficiently without writing lengthy custom CSS. Overall, the new portfolio looks more professional.",
+  },
+  {
+    id: 8,
+    title: "Stock Price Prediction Model",
+    description: "This project predicts stock prices using machine learning techniques, developed as part of my Applied Programming Lab (AP Lab) project.",
+    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+    tags: ["Python", "Machine Learning"],
+    // demoLink: "https://pratyush3300.github.io/Go_Corona/",
+    githubLink: "https://github.com/pratyush3300/Stock-Price-Prediction",
+    fullDescription: "The model analyzes trends, identifies patterns, and makes future price predictions based on past stock performance by leveraging historical data of NVIDIA and Tata Global.",
   },
 ];
 
