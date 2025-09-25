@@ -5,7 +5,7 @@ Overall, the new portfolio not only looks more professional but also reflects be
 
 ## 🖥️ Tech Stack Used:
 
-- **Frontend:** HTML, TypeScript
+- **Frontend:** HTML, JavaScript, TypeScript
 - **Styling:** Tailwind CSS
 - **Animations:**  Framer-motion
 
