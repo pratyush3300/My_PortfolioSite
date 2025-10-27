@@ -48,7 +48,7 @@ const Resume: React.FC = () => {
             whileTap={{ scale: 0.95 }}
             className="inline-block"
           >
-           <a href="https://drive.google.com/file/d/1fYYwL5JC135jFKJs4fupcMHy6F4C1IGB/view?usp=sharing">
+           <a href="https://drive.google.com/file/d/1jQv2OuwyuEeYnRt1DHyS_DGxnepUdeR7/view?usp=sharing">
             <Button 
               size="lg" 
               className="group relative bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 rounded-full px-10 py-6 shadow-lg hover:shadow-primary/20 hover:shadow-xl transition-all duration-300"
