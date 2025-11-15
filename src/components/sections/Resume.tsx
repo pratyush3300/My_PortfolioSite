@@ -21,8 +21,7 @@ const Resume: React.FC = () => {
           <h2 className="heading-lg mb-4">Resume</h2>
           <div className="w-20 h-1 bg-secondary mx-auto mb-8"></div>
           <p className="text-lg md:text-xl max-w-3xl mx-auto text-foreground/80">
-            Download my resume to get a comprehensive view of my skills,
-            experience, and qualifications.
+            Download my resume to get a comprehensive view of my qualifications, skills, projects, and certifications.
           </p>
         </motion.div>
 
