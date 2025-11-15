@@ -37,7 +37,7 @@ const Resume: React.FC = () => {
 
           <h3 className="heading-md mb-6">Ready to see more about my experience?</h3>
           <p className="text-lg mb-8 max-w-2xl mx-auto">
-            My resume showcase details about my work history, education,
+            My resume showcases my work history, education,
             technical skills, and achievements. Feel free to download it for your
             reference.
           </p>
