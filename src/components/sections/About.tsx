@@ -61,7 +61,7 @@ const About: React.FC = () => {
           <h2 className="heading-lg mb-4">About Me</h2>
           <div className="w-20 h-1 bg-secondary mx-auto mb-8"></div>
           <p className="text-lg md:text-xl max-w-3xl mx-auto text-foreground/80">
-            A final-year B.Tech student with specialization in Information Technology at KIIT University with a strong foundation in tech, especially in Web Development, and Machine Learning.
+            A final-year B.Tech student with specialization in Information Technology at KIIT University. Possess a strong foundation in C++, Python, Web Development, and Machine Learning.
             Enjoy working with cross-functional teams to create solutions that meet technical requirements, enhance user experience, and deliver real value. Quick learner with a drive to explore and work with new technologies.
           </p>
         </motion.div>
