@@ -23,8 +23,7 @@ const Hero: React.FC = () => {
               <span className="gradient-text">Pratyush Prasoon</span>
             </h1>
             <p className="text-xl md:text-2xl text-foreground/80 mb-8">
-              Motivated and articulate engineer crafting beautiful & functional web experiences, with hands-on
-              experience in building and maintaining large-scale, secure, and high-availability systems.
+              Motivated and articulate engineer with hands-on experience in building and maintaining large-scale, secure, and high-availability systems.
             </p>
           </motion.div>
 
