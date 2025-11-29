@@ -6,24 +6,23 @@ import BackgroundBlobs from "@/components/BackgroundBlobs";
 interface Skill {
   name: string;
   level: number;
-  category: "frontend" | "backend" | "Languages";
+  category: "Web Technologies" | "Languages" | "Tools & Platforms";
 }
 
 const skills: Skill[] = [
-  { name: "HTML/CSS", level: 90, category: "frontend" },
-  { name: "JavaScript", level: 80, category: "frontend" },
-  { name: "Bootstrap", level: 80, category: "frontend" },
-  { name: "React", level: 70, category: "frontend" },
-  { name: "TypeScript", level: 55, category: "frontend" },
-  { name: "Python", level: 85, category: "backend"},
-  { name: "Node.js", level: 70, category: "backend" },
-  { name: "MongoDB", level: 78, category: "backend" },
-  { name: "SQL", level: 85, category: "backend" },
-  { name: "C Language", level: 85, category: "Languages" },
+  { name: "HTML/CSS", level: 90, category: "Web Technologies" },
+  { name: "JavaScript", level: 80, category: "Web Technologies" },
+  { name: "Bootstrap", level: 80, category: "Web Technologies" },
+  { name: "React", level: 70, category: "Web Technologies" },
+  { name: "TypeScript", level: 55, category: "Web Technologies" },
   { name: "C++ Language", level: 85, category: "Languages" },
-  { name: "GitHub", level: 90, category: "Languages" },
-   { name: "Figma", level: 90, category: "Languages" },
-  { name: "Power BI", level: 70, category: "Languages" },
+  { name: "Python", level: 85, category: "Languages"},
+  { name: "Node.js", level: 70, category: "Web Technologies" },
+  { name: "SQL", level: 85, category: "Languages" },
+  { name: "C Language", level: 85, category: "Languages" },
+  { name: "GitHub", level: 90, category: "Tools & Platforms" },
+   { name: "Figma", level: 90, category: "Tools & Platforms" },
+  { name: "Power BI", level: 70, category: "Tools & Platforms" },
 ];
 
 const containerVariants = {
@@ -46,9 +45,9 @@ const itemVariants = {
 };
 
 const Skills: React.FC = () => {
-  const frontendSkills = skills.filter(skill => skill.category === "frontend");
-  const backendSkills = skills.filter(skill => skill.category === "backend");
-  const otherSkills = skills.filter(skill => skill.category === "Languages");
+  const WebTechnologiesSkills = skills.filter(skill => skill.category === "Web Technologies");
+  const LanguagesSkills = skills.filter(skill => skill.category === "Languages");
+  const otherSkills = skills.filter(skill => skill.category === "Tools & Platforms");
 
   return (
     <section id="skills" className="section-padding bg-muted relative overflow-hidden">
@@ -71,9 +70,9 @@ const Skills: React.FC = () => {
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          <SkillCategory title="Frontend" skills={frontendSkills} />
-          <SkillCategory title="Backend" skills={backendSkills} />
-          <SkillCategory title="Tools & Languages" skills={otherSkills} />
+          <SkillCategory title="WebTechnologies" skills={WebTechnologiesSkills} />
+          <SkillCategory title="Languages" skills={LanguagesSkills} />
+          <SkillCategory title="Tools & Platforms" skills={otherSkills} />
         </div>
       </div>
     </section>
