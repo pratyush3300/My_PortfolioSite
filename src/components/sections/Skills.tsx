@@ -17,13 +17,12 @@ const skills: Skill[] = [
   { name: "TypeScript", level: 55, category: "Web Technologies" },
   { name: "C++ Language", level: 85, category: "Languages" },
   { name: "Python", level: 85, category: "Languages"},
+  { name: "C Language", level: 85, category: "Languages" },
   { name: "Node.js", level: 70, category: "Web Technologies" },
   { name: "SQL", level: 85, category: "Languages" },
-  { name: "C Language", level: 85, category: "Languages" },
   { name: "GitHub", level: 90, category: "Tools & Platforms" },
    { name: "Figma", level: 90, category: "Tools & Platforms" },
   { name: "Power BI", level: 70, category: "Tools & Platforms" },
-  { name: "Git", level: 75, category: "Languages"}
   // { name: "Jupyter Notebook", level: 90, category: "Tools & Platforms" },
 ];
 
