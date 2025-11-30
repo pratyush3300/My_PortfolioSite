@@ -23,7 +23,8 @@ const skills: Skill[] = [
   { name: "GitHub", level: 90, category: "Tools & Platforms" },
    { name: "Figma", level: 90, category: "Tools & Platforms" },
   { name: "Power BI", level: 70, category: "Tools & Platforms" },
-  { name: "Jupyter Notebook", level: 90, category: "Tools & Platforms" }
+  { name: "Git", level: 75, category: "Languages"}
+  // { name: "Jupyter Notebook", level: 90, category: "Tools & Platforms" },
 ];
 
 const containerVariants = {
