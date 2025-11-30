@@ -71,7 +71,7 @@ const Skills: React.FC = () => {
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          <SkillCategory title="Web Technologies" skills={Web TechnologiesSkills} />
+          <SkillCategory title="Web Technologies" skills={WebTechnologiesSkills} />
           <SkillCategory title="Languages" skills={LanguagesSkills} />
           <SkillCategory title="Tools & Platforms" skills={otherSkills} />
         </div>
