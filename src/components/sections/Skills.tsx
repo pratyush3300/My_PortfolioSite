@@ -22,7 +22,7 @@ const skills: Skill[] = [
   { name: "SQL", level: 85, category: "Languages" },
   { name: "GitHub", level: 90, category: "Tools & Platforms" },
    { name: "Figma", level: 90, category: "Tools & Platforms" },
-  { name: "Power BI", level: 70, category: "Tools & Platforms" }
+  { name: "Power BI", level: 70, category: "Tools & Platforms" },
   { name: "Jupyter Notebook", level: 90, category: "Tools & Platforms" },
   // { name: "Jupyter Notebook", level: 90, category: "Tools & Platforms" },
 ];
