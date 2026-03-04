@@ -84,7 +84,7 @@ const projects: Project[] = [
     description: "This website provides a detailed insights into the local impact of the COVID-19.",
     image: "https://postimg.cc/3WBC5VcX",
     tags: ["HTML&CSS", "BootStrap"],
-    demoLink: "https://pratyush3300.github.io/Go_Corona/",
+    demoLink: "https://i.postimg.cc/15xW6Z0j/cdc-bkc-m0i-Z4Sk-unsplash.jpg",
     // githubLink: "https://github.com/pratyush3300/Go_Corona",
     fullDescription: "It presents users to meet-up with our best doctors, preventive measures, and vital resources to help communities stay informed and safe.",
   },  
