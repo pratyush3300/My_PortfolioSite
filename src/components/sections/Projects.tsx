@@ -71,7 +71,7 @@ const projects: Project[] = [
     id: 5,
     title: "Marriott Operations Management Dashboard",
     description: "Designed interactive dashboards analyzing Marriott Properties Sales Data.",
-    image: "https://ibb.co/1fnG8NXR",
+    image: "https://i.postimg.cc/jSbFVrLZ/data-analysius.jpg",
     tags: ["Power BI", "Data Analysis"],
     demoLink: "#",
     // githubLink: "https://github.com/pratyush3300/Study_Nest",
