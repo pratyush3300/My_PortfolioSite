@@ -67,9 +67,19 @@ const projects: Project[] = [
     // githubLink: "https://github.com/pratyush3300/My_PortfolioSite",
     fullDescription: "This is my internship project at Acmegrade Pvt. Ltd, where I developed MapFood, a food discovery platform with interactive onboarding and responsive layout for a seamless experience.",
   },
+    {
+    id: 5,
+    title: "Marriott Operations Management Dashboard",
+    description: "Designed interactive dashboards analyzing Marriott Properties Sales Data.",
+    image: "https://unsplash.com/photos/graphical-user-interface--WXQm_NTK0U",
+    tags: ["Power BI", "Data Analysis"],
+    demoLink: "#",
+    // githubLink: "https://github.com/pratyush3300/Study_Nest",
+    fullDescription: "Analyzed multi-property sales data to identify revenue patterns and occupancy trends. Built interactive dashboards using Power BI to monitor KPIs and performance metrics.",
+  },
   
   {
-    id: 5,
+    id: 6,
     title: "COVID-19 Site",
     description: "This website provides a detailed insights into the local impact of the COVID-19.",
     image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
@@ -79,7 +89,7 @@ const projects: Project[] = [
     fullDescription: "It presents users to meet-up with our best doctors, preventive measures, and vital resources to help communities stay informed and safe.",
   },  
   {
-    id: 6,
+    id: 7,
     title: "Meery Christmas",
     description: "This project showcases a responsive Christmas-themed website.",
     image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
@@ -89,7 +99,7 @@ const projects: Project[] = [
     fullDescription: "The project showcases a responsive Christmas-themed website. The design incorporates festive elements that capture the spirit of the holiday season.",
   },
   {
-    id: 7,
+    id: 8,
     title: "New Portfolio Website",
     description: "I recently developed a new modern version of my portfolio website.",
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
@@ -99,7 +109,7 @@ const projects: Project[] = [
     fullDescription: "Unlike my previous version, this site leverages Tailwind's utility-first approach to build custom layouts more efficiently without writing lengthy custom CSS. Overall, the new portfolio looks more professional.",
   },
   {
-    id: 8,
+    id: 9,
     title: "Stock Price Prediction Model",
     description: "This project predicts stock prices using machine learning techniques, developed as part of my Applied Programming Lab (AP Lab) project.",
     image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
@@ -114,7 +124,7 @@ const Projects: React.FC = () => {
   const [filter, setFilter] = useState<string>("All");
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
-  const filters = ["All", "BootStrap", "React.js", "Python", "Machine Learning", "JavaScript", "Tailwind CSS"];
+  const filters = ["All", "BootStrap", "React.js", "Python", "Machine Learning", "JavaScript", "Data Analysis"];
 
   const filteredProjects = filter === "All"
     ? projects
