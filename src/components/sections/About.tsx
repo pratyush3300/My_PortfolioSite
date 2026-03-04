@@ -9,7 +9,7 @@ const About: React.FC = () => {
     {
       year: "Feb 2024 -- Apr 2025",
       company: "Web Developer (Co-Lead)",
-      role: "Artificial Intelligence Student Operated Council(AISoC), KIIT",
+      role: "Artificial Intelligence Student Operated Council (AISoC), KIIT",
       description: "Led the development of AISoC’s official website by collaborating with content, designing, and tech teams. ",
     },
     {
