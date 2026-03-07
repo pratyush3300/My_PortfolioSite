@@ -67,8 +67,18 @@ const projects: Project[] = [
     // githubLink: "https://github.com/pratyush3300/My_PortfolioSite",
     fullDescription: "This is my internship project at Acmegrade Pvt. Ltd, where I developed MapFood, a food discovery platform with interactive onboarding and responsive layout for a seamless experience.",
   },
-    {
+   {
     id: 5,
+    title: "Meery Christmas",
+    description: "This project showcases a responsive Christmas-themed website.",
+    image: "https://i.postimg.cc/ry3pWhCc/christmas.jpg",
+    tags: ["HTML&CSS", "JavaScript", "BootStrap"],
+    demoLink: "https://pratyush3300.github.io/Christmas/",
+    // githubLink: "https://github.com/pratyush3300/Christmas",
+    fullDescription: "The project showcases a responsive Christmas-themed website. The design incorporates festive elements that capture the spirit of the holiday season.",
+  },
+    {
+    id: 6,
     title: "Marriott Operations Management Dashboard",
     description: "Designed interactive dashboards analyzing Marriott Properties Sales Data.",
     image: "https://i.postimg.cc/jSbFVrLZ/data-analysius.jpg",
@@ -77,9 +87,18 @@ const projects: Project[] = [
     // githubLink: "https://github.com/pratyush3300/Study_Nest",
     fullDescription: "Analyzed multi-property sales data to identify revenue patterns and occupancy trends. Built interactive dashboards using Power BI to monitor KPIs and performance metrics.",
   },
-  
   {
-    id: 6,
+    id: 7,
+    title: "Stock Price Prediction Model",
+    description: "This project predicts stock prices using machine learning techniques, developed as part of my Applied Programming Lab (AP Lab) project.",
+    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+    tags: ["Python", "Machine Learning"],
+    // demoLink: "https://pratyush3300.github.io/Go_Corona/",
+    githubLink: "https://github.com/pratyush3300/Stock-Price-Prediction",
+    fullDescription: "The model analyzes trends, identifies patterns, and makes future price predictions based on past stock performance by leveraging historical data of NVIDIA and Tata Global.",
+  },
+  {
+    id: 8,
     title: "COVID-19 Site",
     description: "This website provides a detailed insights into the local impact of the COVID-19.",
     image: "https://i.postimg.cc/15xW6Z0j/cdc-bkc-m0i-Z4Sk-unsplash.jpg",
@@ -89,17 +108,7 @@ const projects: Project[] = [
     fullDescription: "It presents users to meet-up with our best doctors, preventive measures, and vital resources to help communities stay informed and safe.",
   },  
   {
-    id: 7,
-    title: "Meery Christmas",
-    description: "This project showcases a responsive Christmas-themed website.",
-    image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
-    tags: ["HTML&CSS", "JavaScript", "BootStrap"],
-    demoLink: "https://pratyush3300.github.io/Christmas/",
-    // githubLink: "https://github.com/pratyush3300/Christmas",
-    fullDescription: "The project showcases a responsive Christmas-themed website. The design incorporates festive elements that capture the spirit of the holiday season.",
-  },
-  {
-    id: 8,
+    id: ,9
     title: "New Portfolio Website",
     description: "I recently developed a new modern version of my portfolio website.",
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
@@ -107,16 +116,6 @@ const projects: Project[] = [
     demoLink: "https://my-portfolio-site-lac-one.vercel.app/",
     // githubLink: "https://github.com/pratyush3300/My_PortfolioSite",
     fullDescription: "Unlike my previous version, this site leverages Tailwind's utility-first approach to build custom layouts more efficiently without writing lengthy custom CSS. Overall, the new portfolio looks more professional.",
-  },
-  {
-    id: 9,
-    title: "Stock Price Prediction Model",
-    description: "This project predicts stock prices using machine learning techniques, developed as part of my Applied Programming Lab (AP Lab) project.",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-    tags: ["Python", "Machine Learning"],
-    // demoLink: "https://pratyush3300.github.io/Go_Corona/",
-    githubLink: "https://github.com/pratyush3300/Stock-Price-Prediction",
-    fullDescription: "The model analyzes trends, identifies patterns, and makes future price predictions based on past stock performance by leveraging historical data of NVIDIA and Tata Global.",
   },
 ];
 
