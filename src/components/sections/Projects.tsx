@@ -67,6 +67,7 @@ const projects: Project[] = [
     // githubLink: "https://github.com/pratyush3300/My_PortfolioSite",
     fullDescription: "This is my internship project at Acmegrade Pvt. Ltd, where I developed MapFood, a food discovery platform with interactive onboarding and responsive layout for a seamless experience.",
   },
+  
    {
     id: 5,
     title: "Meery Christmas",
@@ -77,6 +78,7 @@ const projects: Project[] = [
     // githubLink: "https://github.com/pratyush3300/Christmas",
     fullDescription: "The project showcases a responsive Christmas-themed website. The design incorporates festive elements that capture the spirit of the holiday season.",
   },
+  
     {
     id: 6,
     title: "Marriott Operations Management Dashboard",
@@ -87,6 +89,7 @@ const projects: Project[] = [
     // githubLink: "https://github.com/pratyush3300/Study_Nest",
     fullDescription: "Analyzed multi-property sales data to identify revenue patterns and occupancy trends. Built interactive dashboards using Power BI to monitor KPIs and performance metrics.",
   },
+  
   {
     id: 7,
     title: "Stock Price Prediction Model",
@@ -97,6 +100,7 @@ const projects: Project[] = [
     githubLink: "https://github.com/pratyush3300/Stock-Price-Prediction",
     fullDescription: "The model analyzes trends, identifies patterns, and makes future price predictions based on past stock performance by leveraging historical data of NVIDIA and Tata Global.",
   },
+  
   {
     id: 8,
     title: "COVID-19 Site",
@@ -107,6 +111,7 @@ const projects: Project[] = [
     // githubLink: "https://github.com/pratyush3300/Go_Corona",
     fullDescription: "It presents users to meet-up with our best doctors, preventive measures, and vital resources to help communities stay informed and safe.",
   },  
+  
   {
     id: ,9
     title: "New Portfolio Website",
@@ -116,7 +121,7 @@ const projects: Project[] = [
     demoLink: "https://my-portfolio-site-lac-one.vercel.app/",
     // githubLink: "https://github.com/pratyush3300/My_PortfolioSite",
     fullDescription: "Unlike my previous version, this site leverages Tailwind's utility-first approach to build custom layouts more efficiently without writing lengthy custom CSS. Overall, the new portfolio looks more professional.",
-  },
+  }
 ];
 
 const Projects: React.FC = () => {
