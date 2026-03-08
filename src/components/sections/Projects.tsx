@@ -113,7 +113,7 @@ const projects: Project[] = [
   },  
   
   {
-    id: ,9
+    id: 9
     title: "New Portfolio Website",
     description: "I recently developed a new modern version of my portfolio website.",
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
