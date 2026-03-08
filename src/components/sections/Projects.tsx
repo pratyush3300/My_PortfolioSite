@@ -61,7 +61,7 @@ const projects: Project[] = [
     id: 4,
     title: "MapFood Platform",
     description: "Built the MapFood platform during the internship period.",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    image: "https://jumpshare.com/s/vtvcvrRqcnxElkzEsL27",
     tags: ["React.js", "Tailwind CSS"],
     demoLink: "https://internproject-mu.vercel.app/",
     // githubLink: "https://github.com/pratyush3300/My_PortfolioSite",
