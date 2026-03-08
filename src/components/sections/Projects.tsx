@@ -50,7 +50,7 @@ const projects: Project[] = [
     id: 3,
     title: "Movie Recommendation System",
     description: "This Movie Recommendation System is a content-based model built using Python, TF-IDF vectorization, and cosine similarity.",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    image: "https://i.postimg.cc/4y2VJB6f/project.png",
     tags: ["Python", "Machine Learning"],
     demoLink: "https://github.com/pratyush3300/Movie_Recomendation/blob/main/Model_Presentation.pdf",
     githubLink: "https://github.com/pratyush3300/Movie_Recomendation",
