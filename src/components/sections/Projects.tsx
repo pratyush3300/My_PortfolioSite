@@ -72,7 +72,7 @@ const projects: Project[] = [
     id: 5,
     title: "Meery Christmas",
     description: "This project showcases a responsive Christmas-themed website.",
-    image: "https://i.postimg.cc/ry3pWhCc/christmas.jpg",
+    image: "https://ibb.co/7JPCfW1G",
     tags: ["HTML&CSS", "JavaScript", "BootStrap"],
     demoLink: "https://pratyush3300.github.io/Christmas/",
     // githubLink: "https://github.com/pratyush3300/Christmas",
